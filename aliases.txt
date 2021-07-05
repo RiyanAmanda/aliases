@@ -1,0 +1,14 @@
+# Artisan command
+alias pa='php artisan'
+alias artisan='php artisan'
+alias pas='artisan serve'
+
+# Git command
+alias gs='git status'
+alias gc='git commit'
+alias npi='npm install'
+alias npw='npm run watch'
+alias npp='npm run prod'
+alias npiw='npi && npw'
+alias npip='npi && npp'
+alias graph='git log --all --oneline --decorate --graph'
