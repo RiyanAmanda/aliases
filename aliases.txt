@@ -1,3 +1,5 @@
+# file to edit = ~/.bashrc
+
 # Artisan command
 alias pa='php artisan'
 alias artisan='php artisan'
