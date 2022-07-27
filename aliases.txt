@@ -1,9 +1,14 @@
 # Command to edit file '~/.bashrc'
 
-# Artisan command
-alias pa='php artisan'
+# Laravel command
 alias artisan='php artisan'
 alias pas='artisan serve'
+alias ams='artisan migrate --seed'
+alias amfs='artisan migrate:fresh --seed'
+
+# Laravel Pint
+alias pintfix='./vendor/bin/pint'
+alias pintest='./vendor/bin/pint --test'
 
 # Git command
 alias gs='git status'
