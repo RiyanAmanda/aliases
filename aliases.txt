@@ -2,9 +2,12 @@
 
 # Laravel command
 alias artisan='php artisan'
-alias pas='artisan serve'
-alias ams='artisan migrate --seed'
-alias amfs='artisan migrate:fresh --seed'
+alias pas='php artisan serve'
+alias ams='php artisan migrate --seed'
+alias amfs='php artisan migrate:fresh --seed'
+
+# Laravel sail
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 
 # Laravel Pint
 alias pintfix='./vendor/bin/pint'
