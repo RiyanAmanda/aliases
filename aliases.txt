@@ -1,3 +1,5 @@
+# Command to edit file '~/.bashrc'
+
 # Laravel command
 alias artisan='php artisan'
 alias pas='artisan serve'
