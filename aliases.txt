@@ -1,10 +1,16 @@
-# Command to edit file '~/.bashrc'
-
 # Laravel command
 alias artisan='php artisan'
 alias pas='artisan serve'
 alias ams='artisan migrate --seed'
 alias amfs='artisan migrate:fresh --seed'
+alias migrate='php artisan migrate'
+
+# Laravel Sail
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+
+# Docker
+alias docup='docker compose up -d'
+alias doce='docker compose exec'
 
 # Laravel Pint
 alias pintfix='./vendor/bin/pint'
@@ -21,3 +27,7 @@ alias npiw='npi && npw'
 alias npip='npi && npp'
 alias npid='npi && npd'
 alias graph='git log --all --oneline --decorate --graph'
+
+#windows
+alias open='C:/Users/Amanda/AppData/Local/JetBrains/Toolbox/scripts/phpstorm.cmd . && exit'
+alias mysql='winpty C:/xampp/mysql/bin/mysql.exe'
