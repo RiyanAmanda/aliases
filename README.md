@@ -5,10 +5,10 @@ My aliases while using Git and ZSH.
 Run this command in terminal to add git or zsh alias
 ```javascript
 // Git bash
-~/.bashrc
+nano ~/.bashrc
 
 // ZSH
-~/.zshrc
+nano ~/.zshrc
 ```
 
 ### Laravel artisan
@@ -52,8 +52,9 @@ alias npid='npi && npd'
 
 ### Windows
 ```javascript
-// open with phpstorm and close git terminal afterwards
-alias open='C:/Users/Amanda/AppData/Local/JetBrains/Toolbox/scripts/phpstorm.cmd . && exit'
+// open with phpstorm/webstorm and close git terminal afterwards
+alias openps='$HOME/AppData/Local/JetBrains/Toolbox/scripts/phpstorm.cmd . && exit'
+alias openws='$HOME/AppData/Local/JetBrains/Toolbox/scripts/webstorm.cmd . && exit'
 
 // enter mysql | Laragon Webserver
 alias mysql='winpty /c/laragon/bin/mysql/mysql-8.0.30-winx64/bin/mysql.exe'
