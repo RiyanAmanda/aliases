@@ -24,6 +24,7 @@ alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 ```javascript
 alias pintfix='./vendor/bin/pint'
 alias pintest='./vendor/bin/pint --test'
+alias pretty='npx prettier . --write'
 ```
 
 ### Docker
