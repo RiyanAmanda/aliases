@@ -3,16 +3,16 @@
 My aliases while using Git and ZSH.
 
 Run this command in terminal to add git or zsh alias
-```javascript
-// Git bash
+```bash
+# Git bash
 nano ~/.bashrc
 
-// ZSH
+# ZSH
 nano ~/.zshrc
 ```
 
 ### Laravel artisan
-```javascript
+```bash
 alias artisan='php artisan'
 alias pas='artisan serve'
 alias ams='artisan migrate --seed'
@@ -21,20 +21,20 @@ alias migrate='php artisan migrate'
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 ```
 ### Laravel Pint
-```javascript
+```bash
 alias pintfix='./vendor/bin/pint'
 alias pintest='./vendor/bin/pint --test'
 alias pretty='npx prettier . --write'
 ```
 
 ### Docker
-```javascript
+```bash
 alias docup='docker compose up -d'
-alias doce='docker compose exec'
+alias docxe='docker compose exec'
 ```
 
 ### Git command
-```javascript
+```bash
 alias gs='git status'
 alias gc='git commit'
 alias gsw='git switch'
@@ -42,22 +42,14 @@ alias graph='git log --all --oneline --decorate --graph'
 ```
 
 ### NPM
-```javascript
-alias npi='npm install'
-alias npd='npm run dev'
-alias npw='npm run watch'
-alias npp='npm run prod'
-alias npiw='npi && npw'
-alias npip='npi && npp'
-alias npid='npi && npd'
+```bash
+alias rundev='pnpm run dev'
+alias runwatch='pnpm run watch'
+alias runprod='pnpm run prod'
+alias runbuild='pnpm run build'
 ```
 
 ### Windows
-```javascript
-// open with phpstorm/webstorm and close git terminal afterwards
-alias openps='$HOME/AppData/Local/JetBrains/Toolbox/scripts/phpstorm.cmd . && exit'
-alias openws='$HOME/AppData/Local/JetBrains/Toolbox/scripts/webstorm.cmd . && exit'
-
-// enter mysql | Laragon Webserver
-alias mysql='winpty /c/laragon/bin/mysql/mysql-8.0.30-winx64/bin/mysql.exe'
+```bash
+alias openvs='code . && exit'
 ```
