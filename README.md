@@ -1,3 +1,5 @@
+https://drive.google.com/file/d/16E_HtxhHi8V3X7uxDcdtbvBbOmSzRLVL/view?usp=drive_link
+
 # Aliases Git or ZSH
 
 My aliases while using Git and ZSH.
